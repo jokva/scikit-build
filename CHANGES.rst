@@ -15,6 +15,13 @@ New Features
   For example, instead of displaying ``-- Trying "Ninja" generator``, it now displays a message
   like ``-- Trying "Ninja (Visual Studio 15 2017 Win64 v140)" generator``.
 
+Bug fixes
+---------
+
+* Checking generator candidates can now handle handle paths and binaries with
+  spaces, so that ``setup.py --cmake-executable "C:/Program Files
+  (x86)/cmake/cmake.exe"`` works as expected.
+
 Internal API
 ------------
 
